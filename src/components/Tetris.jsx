@@ -201,6 +201,7 @@ const Tetris = () => {
             overflowY: 'auto',
           }}
         >
+          
           <h3>Saved Scores</h3>
           {savedScores.length === 0 ? (
             <p>No scores saved yet!</p>
